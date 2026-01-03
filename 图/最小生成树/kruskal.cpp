@@ -20,7 +20,7 @@ int find(int x) {
     return p[x];
 }
 
-void merge(int x,int y){
+void merge(int x,int y) {
     p[x]=find(p[y]);
     return;
 }
