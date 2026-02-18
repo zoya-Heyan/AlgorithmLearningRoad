@@ -19,7 +19,7 @@ inline void add(int a, int b) {
 int tarjan(int u) {
     dfn[u] = low[u] = ++ tim;
     stk[++ top] = u;
-    in_stk[u] = 1;
+    in_stk[u] = true;
 
     for(int i = head[u]; ~i; i ++) {
         int v = to[i];

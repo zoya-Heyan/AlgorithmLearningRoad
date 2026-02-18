@@ -1,11 +1,10 @@
-//图越稠密越适用
 #include <iostream>
 #include <cstring>
 #include <queue>
 using namespace std;
 
-const int N = 100005;
-const int M = 200005;   // 边数，根据题目调整
+const int N = 100005;   // 点数
+const int M = 200005;   // 边数
 const int INF = 0x3f3f3f3f;
 
 int head[N], to[M], w[M], nxt[M], idx;

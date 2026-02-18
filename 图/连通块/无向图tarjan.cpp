@@ -10,7 +10,7 @@ int stk[N], in_stk[N], low[N], dfn[N];
 int scc_cnt, top, ts;
 
 void add(int a, int b) {
-    e[idx] = a, ne[idx] = h[a], h[a] = idx ++;
+    e[idx] = b, ne[idx] = h[a], h[a] = idx ++;
 }
 
 void tarjan(int u) {
